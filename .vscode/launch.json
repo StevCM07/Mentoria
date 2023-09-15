@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/decoradores.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Variable arguments",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/argumentos-variables.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python Execution Script",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/modulos.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Bpython Shell",
+            "type": "python",
+            "request": "launch",
+            "module": "bpython",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Bpython Shell with arguments",
+            "type": "python",
+            "request": "launch",
+            "module": "bpython",
+            "args": ["-i", "modulos.py"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+
+    ]
+}
